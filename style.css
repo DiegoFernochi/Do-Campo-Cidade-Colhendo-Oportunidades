@@ -99,50 +99,6 @@ a:active{
 
 }
 
-#duvidas {
-  display: flex;
-  align-items: center;
-  gap: 74px;
-  padding: 64px 80px 64px 15px;
-}
-
-.duvida {
-  position: relative;
-}
-
-.duvida h3 {
-  border: 2px solid #0eb40e;
-  border-radius: 8px;
-  cursor: pointer;
-  padding: 24px;
-}
-
-.duvida img {
-  position: absolute;
-  top: 32px;
-  right: 24px;
-}
-
-.duvida .paragrafo {
-  border-right: 1px solid #3c1a70;
-  border-bottom:  1px solid #3c1a70;
-  border-left:  1px solid #3c1a70;
-  border-radius: 0 0 8px 8px;
-  margin-top: -8px;
-  padding: 0 24px;
-  height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: 0.2s;
-}
-
-.duvida.ativa .paragrafo {
-  height: fit-content;
-  opacity: 1;
-  padding: 24px;
-}
-
-
 .agricultura-imagem{
     justify-self: end;
     align-content: right;
